@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/boombuler/barcode"
+	"github.com/speedata/barcode"
 )
 
 type test struct {

@@ -3,7 +3,7 @@ package qr
 import (
 	"errors"
 
-	"github.com/boombuler/barcode/utils"
+	"github.com/speedata/barcode/utils"
 )
 
 func encodeUnicode(content string, ecl ErrorCorrectionLevel) (*utils.BitList, *versionInfo, error) {

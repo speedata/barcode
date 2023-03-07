@@ -5,8 +5,8 @@ import (
 	"image/color"
 	"math"
 
-	"github.com/boombuler/barcode"
-	"github.com/boombuler/barcode/utils"
+	"github.com/speedata/barcode"
+	"github.com/speedata/barcode/utils"
 )
 
 type qrcode struct {

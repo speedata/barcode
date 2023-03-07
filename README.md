@@ -1,4 +1,7 @@
-[![Join the chat at https://gitter.im/golang-barcode/Lobby](https://badges.gitter.im/golang-barcode/Lobby.svg)](https://gitter.im/golang-barcode/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+(Forked from https://github.com/boombuler/barcode - all credits go to boombuler!)
+
+
+
 
 ## Introduction ##
 
@@ -27,8 +30,8 @@ import (
 	"image/png"
 	"os"
 
-	"github.com/boombuler/barcode"
-	"github.com/boombuler/barcode/qr"
+	"github.com/speedata/barcode"
+	"github.com/speedata/barcode/qr"
 )
 
 func main() {
@@ -48,6 +51,6 @@ func main() {
 ```
 
 ## Documentation ##
-See [GoDoc](https://godoc.org/github.com/boombuler/barcode)
+See [GoDoc](https://godoc.org/github.com/speedata/barcode)
 
 To create a barcode use the Encode function from one of the subpackages.

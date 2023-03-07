@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/boombuler/barcode/utils"
+	"github.com/speedata/barcode/utils"
 )
 
 func Test_StuffBits(t *testing.T) {
